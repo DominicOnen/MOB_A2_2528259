@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "DOPortfolio",
+    "slug": "doportfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F3D3E"
+    },
+    "android": {
+      "package": "rw.ac.ines.ug2528259.doportfolio",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F3D3E"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "DOPortfolio uses your photos only to show your profile picture inside the app.",
+          "cameraPermission": "DOPortfolio uses the camera only to take your profile picture."
+        }
+      ]
+    ]
+  }
+}
