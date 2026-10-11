@@ -4,7 +4,7 @@
 export const IDENTITY = {
   fullName: 'Dominic Onen',
   regNo: '25/28259',
-  appName: 'DOPortfolio',
+  appName: 'OnenPortfolio',
   verificationCode: 'MOB-A2-8259',
 };
 
@@ -27,27 +27,66 @@ export type Skill = { name: string; level: 'Learning' | 'Comfortable' | 'Confide
 export const SKILLS: Skill[] = [
   { name: 'React Native & Expo', level: 'Comfortable', note: 'Screens, navigation, forms, APK builds' },
   { name: 'JavaScript / TypeScript', level: 'Comfortable', note: 'Hooks, typed components' },
+  { name: 'HTML', level: 'Comfortable', note: 'UI, backend, dev, animation' },
+   { name: 'Java', level: 'Comfortable', note: 'UI, backend, desktop apps' },
   { name: 'Python & FastAPI', level: 'Learning', note: 'REST endpoints, validation, SQLite' },
   { name: 'Git & GitHub', level: 'Comfortable', note: 'Repositories, commits, GitHub Actions' },
   { name: 'REST APIs', level: 'Comfortable', note: 'Calling and designing JSON endpoints' },
-  { name: 'Deploying services', level: 'Learning', note: 'Render, build logs, fixing deploy errors' },
+  { name: 'Deploying services', level: 'Learning', note: 'Render, supabse, build logs, fixing deploy errors' },
 ];
 
 export type TimelineItem = { period: string; title: string; place: string; detail: string };
 
 export const TIMELINE: TimelineItem[] = [
+
+  {
+    period: '2025',
+    title: 'advance web design',
+    place: 'INES-Ruhengeri',
+    detail: 'web development, designing backend',
+  },
+
+  {
+    period: '2025',
+    title: 'Software Requirement',
+    place: 'INES-Ruhengeri',
+    detail: 'understanding Stakeholders, finding best needs, designing the UI',
+  },
+
+  {
+    period: '2025',
+    title: 'Software Analysis & design',
+    place: 'INES-Ruhengeri',
+    detail: 'applying stakeholders needs, designing and analyzing project',
+  },
   {
     period: '2026',
-    title: 'Mobile Application Development (SWE 3409)',
+    title: 'Mobile Application Development',
     place: 'INES-Ruhengeri',
     detail: 'React Native and Expo practicals, individual assignments and group work.',
   },
   {
     period: '2026',
-    title: 'Applied AI (SWE 3513)',
+    title: 'Applied AI',
     place: 'INES-Ruhengeri',
     detail: 'Data cleaning, models and serving results through an API.',
   },
+  {
+    period: 'in progress',
+    title: 'ML with Python',
+    place: 'Self-Learning',
+    detail: 'clustering, classification and regression',
+  },
+
+  {
+    period: 'in progress',
+    title: 'Dart with flutter',
+    place: 'Self-Learning',
+    detail: 'Mobile app with single code base',
+  },
+
+
+
   {
     period: 'In progress',
     title: 'Software Engineering studies',
@@ -86,9 +125,32 @@ export const PROJECTS: Project[] = [
     tech: ['Python', 'FastAPI', 'SQLite', 'Render'],
     link: { label: 'View code on GitHub (needs internet)', url: 'https://github.com/DominicOnen/scholarship-hub-backend' },
   },
+  
   {
-    id: 'doportfolio',
-    title: 'DOPortfolio (this app)',
+    id: 'PCOSS',
+    title: 'PCOSS Church',
+    problem: 'Our church needed a platform to stream online sermons, upload updates about the church as well as for online bible studies all mosu of the church activities!',
+    contribution:
+      'Build every single thing from scretch, from the UI, backend  and also the deployment which I used Cloudflare for Hosting and Supabase for out database a hosted PostgrSQl and render for APIs',
+    tech: ['HTML', 'TypeScript', 'CSS', 'Python', 'AsyncStorage', 'PHP'],
+    link: { label: 'View code on GitHub (needs internet)', url: 'https://github.com/DominicOnen/pcoss-church' },
+  },
+
+  {
+    id: 'Wu-nen Film',
+    title: 'Wu-nen Film',
+    problem: 'An online platform for photographer booking for a trational wedding, or occations of anykind',
+    contribution:
+      ' Build the entire project from the UI to the backend as well as the deployment of the web application.',
+    tech: ['HTML', 'TypeScript', 'Python', 'AsyncStorage', 'PHP', 'CSS' ],
+    link: { label: 'View code on GitHub (needs internet)', url: 'https://github.com/DominicOnen/wu-nen-film' }
+  },
+
+
+ 
+  {
+    id: 'Onenportfolio',
+    title: 'OnenPortfolio (this app)',
     problem: 'A recruiter should understand who I am and what I can build within two minutes, even offline.',
     contribution:
       'I chose the content, ran the build and tests on my phone, and recorded the demonstration. The structure uses tabs, a project stack, an editable profile saved with AsyncStorage and a profile picture picker.',

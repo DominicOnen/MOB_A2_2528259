@@ -31,9 +31,8 @@ export default function AboutScreen() {
       <SectionTitle>Data use</SectionTitle>
       <Card>
         <Text style={styles.text}>
-          This app stores the profile you edit (headline, biography, primary skill, availability) and the
-          location of your chosen profile picture on this phone only, using AsyncStorage. Nothing is sent to a
-          server. Do not enter passwords or private records. Use Reset on the Profile tab to delete everything.
+          this application here only stores the image on you profile you just edited. it also stores also store the location as well.
+          Just mad it to find out my skills on the new modules it just did.
         </Text>
       </Card>
 

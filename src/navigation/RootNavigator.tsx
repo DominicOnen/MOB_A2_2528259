@@ -54,7 +54,7 @@ export default function RootNavigator() {
         ),
       })}
     >
-      <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'DOPortfolio' , tabBarLabel: 'Home' }} />
+      <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'OnenPortfolio' , tabBarLabel: 'Home' }} />
       <Tab.Screen name="Skills" component={SkillsScreen} options={{ title: 'Skills and education' , tabBarLabel: 'Skills' }} />
       <Tab.Screen name="Projects" component={ProjectsStack} options={{ headerShown: false }} />
       <Tab.Screen name="Profile" component={ProfileScreen} options={{ title: 'Edit profile' }} />

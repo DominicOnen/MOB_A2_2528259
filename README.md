@@ -5,9 +5,9 @@ My name is Dominic Onen.
 | | |
 | --- | --- |
 | **Registration number** | 25/28259 |
-| **App name** | DOPortfolio |
+| **App name** | OnenPortfolio |
 | **Verification code** | MOB-A2-8259 (shown on the About screen) |
-| **Android package** | `rw.ac.ines.ug2528259.doportfolio` |
+| **Android package** | `rw.ac.ines.ug2528259.doportfolio` (You can also find it on my GitHub) |
 | **Course** | SWE 3409 Mobile Application Development, INES-Ruhengeri, Individual Assignment 2 |
 
 ## Purpose
@@ -19,7 +19,7 @@ profile within two minutes. The whole portfolio works offline.
 
 1. **Home**: the first sentence is "My name is Dominic Onen.", then profile picture (or initials avatar), headline, short biography, chips and the verification code.
 2. **Skills and education**: six skills built from a reusable card, and an education and training timeline (reusable component).
-3. **Projects**: three real projects, each with title, problem, my contribution, technology and a separate Project Details screen (stack route).
+3. **Projects**: more than three real projects, each with title, problem, my contribution, technology and a separate Project Details screen (stack route).
 4. **Profile editor**: controlled fields for headline, short biography, primary skill and availability status, with four validation rules and a message under each field. An invalid save is blocked.
 5. **Navigation**: bottom tabs (Home, Skills, Projects, Profile, About) and a native stack inside Projects. Back keeps the session.
 6. **Profile picture**: take a photo or choose from the gallery, preview, replace and remove, with messages for denied permission and for cancelling.
@@ -61,9 +61,9 @@ git push origin v1.0.0
 
 | | |
 | --- | --- |
-| **Tested device** | _fill in: phone make and model_ |
-| **Android version** | _fill in: for example Android 13_ |
-| **Final commit hash** | _fill in: output of `git rev-parse HEAD`_ |
+| **Tested device** | _Techno Camon_ |
+| **Android version** | _Android 13_ |
+| **Final commit hash** | _ _ |
 | **Release link** | https://github.com/DominicOnen/MOB_A2_2528259/releases/tag/v1.0.0 |
 | **APK link** | https://github.com/DominicOnen/MOB_A2_2528259/releases/download/v1.0.0/MOB_A2_2528259.apk |
 | **Demonstration video** | `MOB_A2_2528259_DEMO.mp4`, attached to the same release |
